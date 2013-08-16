@@ -21,6 +21,8 @@ body {
 }
 
 #refreshBtn {
+    float: right;
+    margin-top: 5px;
 }
 
 ul {
@@ -34,6 +36,6 @@ li {
   border-radius: 3px;
   padding: 5px;
   margin-bottom: 3px;
-  background: -webkit-linear-gradient(right, #eee, rgba(255,255,255,0), #eee);
+  background: linear-gradient(right, #eee, rgba(255,255,255,0), #eee);
   color: #666666;
 }
