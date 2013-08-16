@@ -3,8 +3,6 @@ document.addEventListener('DOMContentLoaded', function () {
     console.log("DOM Content Loaded");  
 });
 
-var aListApp = angular.module('aListApp', []);
-
 function ListController($scope) {
     $scope.list = [
         {name:'Item One'},
