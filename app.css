@@ -14,10 +14,13 @@ body {
   margin-bottom: 10px;
 }
 
-nav > h2 {
+#appTitle {
   display: inline-block;
   vertical-align: middle;
   margin-right: 15px;
+}
+
+#refreshBtn {
 }
 
 ul {
