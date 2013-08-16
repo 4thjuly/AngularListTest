@@ -1,5 +1,25 @@
 /* App wide css */
 
+html, body {
+  margin: 0;
+  height: 100%;
+}
+
+body {
+  padding: 15px;
+  overflow: hidden;
+}
+
+#main > nav {
+  margin-bottom: 10px;
+}
+
+nav > h2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
 ul {
   margin: 0;
   height: 525px;
