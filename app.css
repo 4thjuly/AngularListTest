@@ -1,1 +1,16 @@
-/* css */
+/* App wide css */
+
+ul {
+  margin: 0;
+  height: 525px;
+  overflow: auto;
+}
+
+li {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  padding: 5px;
+  margin-bottom: 3px;
+  background: -webkit-linear-gradient(right, #eee, rgba(255,255,255,0), #eee);
+  color: #666666;
+}
