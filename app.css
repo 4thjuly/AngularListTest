@@ -32,10 +32,10 @@ ul {
 }
 
 li {
-  border: 1px solid #ccc;
-  border-radius: 3px;
+  border: 0px solid #E0E0E0;
+  border-radius: 1px;
   padding: 5px;
-  margin-bottom: 3px;
-  background: linear-gradient(right, #eee, rgba(255,255,255,0), #eee);
-  color: #666666;
+  margin-bottom: 1px;
+  background: #F0F0F0;
+  color: Black;
 }
