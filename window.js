@@ -13,6 +13,7 @@ function ListController($scope) {
   $scope.refresh = function() {
       // TODO Refresh something
       console.log("Refresh");
+      $scope.list.append({name:'Another'});
   };
  
 }
