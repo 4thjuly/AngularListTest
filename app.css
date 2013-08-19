@@ -42,3 +42,11 @@ li {
     background: #F0F0F0;
     color: Black;
 }
+
+#friendName {
+    font-size: 12pt;
+}
+
+#details {
+    font-size: 9pt;
+}
