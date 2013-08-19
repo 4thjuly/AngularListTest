@@ -27,6 +27,8 @@ body {
 #refreshBtn {
     float: right;
     margin-top: 5px;
+    font-size: 10px;
+    font-weight: bold;
 }
 
 ul {
@@ -49,4 +51,5 @@ li {
 
 #details {
     font-size: 9pt;
+    color: #505050
 }
