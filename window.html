@@ -15,13 +15,14 @@
     <section id="main">
         
       <nav>
-        <h2 id='appTitle'>Angular List Test</h2>
+        <h2 id='appTitle'>List</h2>
         <button id='refreshBtn' class="btn" data-ng-click="refresh()">Refresh</button>
       </nav>
     
       <ul>
         <li data-ng-repeat="listItem in list">
-          <span>{{listItem.name}}</span>
+          <span>{{listItem.friendlyName}}</span>
+          <span>{{listItem.model}} ({{listItem.make}})</span>
         </li>
       </ul>
         
