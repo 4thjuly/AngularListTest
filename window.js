@@ -14,7 +14,7 @@ function ListController($scope) {
  
   $scope.refresh = function() {
       console.log("Refresh");
-      $scope.list.push({friendlyName:'Friend Name', make:'Make', model:'Model'});
+      $scope.list.push({friendlyName:'Friendly Name', make:'Make', model:'Model', ip:'192.168.1.234'});
   };
  
 }

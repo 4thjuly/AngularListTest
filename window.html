@@ -22,7 +22,10 @@
       <ul>
         <li data-ng-repeat="listItem in list">
           <div id="friendName">{{listItem.friendlyName}}</div>
-          <div id="details">{{listItem.model}} ({{listItem.make}})</div>
+          <div>
+			<span id="details">{{listItem.model}} ({{listItem.make}})</span>
+			<span id="ip">[{{listItem.ip}}]</span>
+		  </div>
         </li>
       </ul>
         
