@@ -53,3 +53,9 @@ li {
     font-size: 9pt;
     color: #505050
 }
+
+#ip {
+	float: right;
+	color: darkgrey;
+	font-size: 8pt;
+}
